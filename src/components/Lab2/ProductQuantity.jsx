@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './productQuantity.css'
 export default class ProductQuantity extends Component {
   constructor() {
     super();
@@ -16,12 +16,11 @@ export default class ProductQuantity extends Component {
   }
   render() {
     return (
-      <>
-        <hr />
-        <button onClick={() => this.increment()}>+</button>
+      <div className="btns-wrapper">
+        <button onClick={() => this.increment()}><i class="fa-solid fa-plus"></i></button>
         {this.state.counter}
-        <button onClick={() => this.decrement()}>-</button>
-      </>
+        <button onClick={() => this.decrement()}><i class="fa-solid fa-minus"></i></button>
+      </div>
     );
   }
 }

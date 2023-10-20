@@ -1,0 +1,20 @@
+:root {
+  --section-padding: 50px;
+}
+
+.postsWrapper {
+    padding-block: var(--section-padding);
+}
+.post{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  font-size: 12px;
+}
+h2{
+  text-align: center;
+  margin-block: 20px;
+  border: 1px solid black;
+}
