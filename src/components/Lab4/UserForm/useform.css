@@ -1,0 +1,66 @@
+.form-wrapper {
+  padding-block: var(--section-padding);
+}
+
+form {
+  position: relative;
+  max-width: 450px;
+  padding: 35px 20px;
+  margin-inline: auto;
+  color: #333;
+  border: 1px solid #000;
+  > span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -13px;
+    background-color: #fff;
+    padding-inline: 8px;
+    font-weight: bold;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .row label::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+  }
+  .row span {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: none;
+  }
+  .row label {
+    margin-bottom: 8px;
+  }
+  .row input {
+    padding: 10px;
+    outline: none;
+  }
+  .row input::placeholder {
+    color: #ddd;
+  }
+  .row input[type="submit"] {
+    color: #000;
+    background-color: #fef133;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .row input[type="submit"]:hover {
+    background-color: #333;
+    color: #ddd;
+  }
+  .signin {
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
