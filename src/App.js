@@ -1,12 +1,12 @@
 import "./App.css";
-import Products from "./components/Lab4/Products/Products";
-import FormWrapper from './components/Lab4/UserForm/FormWrapper';
+import Component1 from "./components/Lab5/ContextComponents/Component1";
+import PostsWrapper from "./components/Lab5/Posts/PostsWrapper";
 
 function App() {
   return (
     <>
-    <Products/>
-    <FormWrapper/>
+    <PostsWrapper/>
+    <Component1/>
     </>
   );
 }

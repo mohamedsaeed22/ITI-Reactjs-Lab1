@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 import { productsArray } from "./ProductData";
 
 const Products = () => {
-
+  
   const [products ,setProducts] = useState(productsArray);
 
   

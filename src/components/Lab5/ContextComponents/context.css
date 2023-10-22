@@ -1,0 +1,16 @@
+:root {
+  --section-padding: 50px;
+  --section-background: #f7f7fa;
+}
+
+.context-wrapper {
+  padding-block: var(--section-padding);
+  background-color: var(--section-background);
+}
+
+.context {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}

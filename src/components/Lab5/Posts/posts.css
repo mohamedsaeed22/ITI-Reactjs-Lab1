@@ -1,0 +1,39 @@
+:root {
+  --section-padding: 50px;
+}
+
+.postsWrapper {
+    padding-block: var(--section-padding);
+}
+.post{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  font-size: 12px;
+}
+h2{
+  text-align: center;
+  margin-block: 20px;
+  border: 1px solid black;
+}
+.getPost{
+  text-align: center;
+}
+.getPost button{
+  padding: 8px;
+  background-color: black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+.getPost input{
+  outline:none;
+  padding:8px;
+  margin-right:10px
+}
+.getPost h3{
+  margin-top: 10px;
+  color: #bbb;
+}
